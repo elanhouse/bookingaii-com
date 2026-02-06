@@ -138,19 +138,19 @@ export default function Home() {
               </span>
             </div>
             <div className="flex justify-between py-2 border-b border-gray-200">
-              <span className="text-gray-500">Primary Domain</span>
+              <span className="text-gray-500">Corporate Domain</span>
               <span className="text-gray-900 font-medium">bookingaii.com</span>
             </div>
             <div className="flex justify-between py-2 border-b border-gray-200">
-              <span className="text-gray-500">Product Domain</span>
+              <span className="text-gray-500">Former Brand</span>
               <span className="text-gray-900 font-medium">
-                storagebookings.com
+                StorageBookings (storagebookings.com)
               </span>
             </div>
             <div className="flex justify-between py-2 border-b border-gray-200">
-              <span className="text-gray-500">Legacy Domain</span>
+              <span className="text-gray-500">Original Brand</span>
               <span className="text-gray-900 font-medium">
-                storageradar.com
+                Storage Radar (storageradar.com)
               </span>
             </div>
             <div className="flex justify-between py-2 border-b border-gray-200">
@@ -232,7 +232,7 @@ export default function Home() {
               <li>Background: EDS, GM, Lalamove</li>
             </ul>
             <p className="mt-4 text-sm text-gray-500">
-              marcus@storagebookings.com
+              marcus@bookingaii.com
             </p>
           </div>
 
@@ -306,8 +306,9 @@ export default function Home() {
           </h2>
           <p className="text-gray-600 mb-12 max-w-3xl">
             Booking AI, Inc. has evolved through several brand iterations as our
-            product and market understanding sharpened. All brands and domains
-            below are owned and operated by Booking AI, Inc.
+            product and market understanding sharpened. The company operated
+            under the names Storage Radar and StorageBookings before
+            incorporating as Booking AI, Inc.
           </p>
 
           <div className="relative">
@@ -333,7 +334,7 @@ export default function Home() {
                 </p>
                 <div className="flex flex-wrap gap-3 text-xs">
                   <span className="px-3 py-1 bg-gray-100 rounded-full text-gray-600">
-                    Domain: storageradar.com
+                    Domain: storageradar.com (registered by CTO)
                   </span>
                   <span className="px-3 py-1 bg-gray-100 rounded-full text-gray-600">
                     Slack workspace: storage-radar
@@ -361,10 +362,7 @@ export default function Home() {
                 </p>
                 <div className="flex flex-wrap gap-3 text-xs">
                   <span className="px-3 py-1 bg-gray-100 rounded-full text-gray-600">
-                    Domain: storagebookings.com
-                  </span>
-                  <span className="px-3 py-1 bg-gray-100 rounded-full text-gray-600">
-                    Product operations domain
+                    Domain: storagebookings.com (registered by CTO)
                   </span>
                 </div>
               </div>
@@ -401,10 +399,10 @@ export default function Home() {
             </div>
           </div>
 
-          {/* Domain Ownership Summary */}
+          {/* Domain & Brand Summary */}
           <div className="mt-16 bg-white border border-gray-200 rounded-2xl p-8">
             <h3 className="text-lg font-semibold text-gray-900 mb-6">
-              Domains & Properties — All Owned by Booking AI, Inc.
+              Domains & Brand Properties
             </h3>
             <div className="overflow-x-auto">
               <table className="w-full text-sm">
@@ -425,7 +423,7 @@ export default function Home() {
                   <tr className="border-b border-gray-100">
                     <td className="py-3 px-4 font-medium">bookingaii.com</td>
                     <td className="py-3 px-4">
-                      Corporate website — Booking AI, Inc.
+                      Corporate website & primary domain — Booking AI, Inc.
                     </td>
                     <td className="py-3 px-4">
                       <span className="px-2 py-0.5 bg-green-50 text-green-700 rounded-full text-xs font-medium">
@@ -438,22 +436,22 @@ export default function Home() {
                       storagebookings.com
                     </td>
                     <td className="py-3 px-4">
-                      Product & operations domain
+                      Former product & operations domain (registered by former CTO)
                     </td>
                     <td className="py-3 px-4">
-                      <span className="px-2 py-0.5 bg-green-50 text-green-700 rounded-full text-xs font-medium">
-                        Active
+                      <span className="px-2 py-0.5 bg-orange-50 text-orange-700 rounded-full text-xs font-medium">
+                        In transition
                       </span>
                     </td>
                   </tr>
                   <tr>
                     <td className="py-3 px-4 font-medium">storageradar.com</td>
                     <td className="py-3 px-4">
-                      Legacy brand — original company name
+                      Original brand name (registered by former CTO)
                     </td>
                     <td className="py-3 px-4">
-                      <span className="px-2 py-0.5 bg-yellow-50 text-yellow-700 rounded-full text-xs font-medium">
-                        Legacy
+                      <span className="px-2 py-0.5 bg-orange-50 text-orange-700 rounded-full text-xs font-medium">
+                        In transition
                       </span>
                     </td>
                   </tr>
@@ -464,9 +462,12 @@ export default function Home() {
               The Slack workspace <strong>storage-radar</strong>{" "}
               (storage-radar.slack.com) was created during the original Storage
               Radar phase of the company and has been in continuous use as the
-              primary communication workspace for Booking AI, Inc. since inception.
-              Team email addresses use the storagebookings.com domain
-              (e.g., marcus@storagebookings.com).
+              primary team communication workspace for Booking AI, Inc. since
+              inception. The storagebookings.com and storageradar.com domains
+              were originally registered under the personal account of the
+              former Co-Founder/CTO, Antoni Watts (antoniwatts.com), during his
+              tenure. Following his departure, the company established
+              bookingaii.com as its primary corporate domain.
             </p>
           </div>
         </div>
@@ -487,11 +488,11 @@ export default function Home() {
               </div>
               <div>
                 <p className="text-gray-500 mb-1">CEO — Marcus Whelan</p>
-                <p className="text-gray-900">marcus@storagebookings.com</p>
+                <p className="text-gray-900">marcus@bookingaii.com</p>
               </div>
               <div>
                 <p className="text-gray-500 mb-1">Product & Operations</p>
-                <p className="text-gray-900">support@storagebookings.com</p>
+                <p className="text-gray-900">support@bookingaii.com</p>
               </div>
             </div>
           </div>
@@ -509,10 +510,8 @@ export default function Home() {
                 <p className="text-gray-900">Delaware, United States</p>
               </div>
               <div>
-                <p className="text-gray-500 mb-1">Websites</p>
-                <p className="text-gray-900">
-                  bookingaii.com / storagebookings.com / storageradar.com
-                </p>
+                <p className="text-gray-500 mb-1">Website</p>
+                <p className="text-gray-900">bookingaii.com</p>
               </div>
             </div>
           </div>
@@ -524,7 +523,7 @@ export default function Home() {
         <div className="mx-auto max-w-6xl px-6 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-gray-400">
           <p>&copy; {new Date().getFullYear()} Booking AI, Inc. All rights reserved.</p>
           <p>
-            bookingaii.com &middot; storagebookings.com &middot; storageradar.com
+            Formerly Storage Radar &middot; StorageBookings
           </p>
         </div>
       </footer>
